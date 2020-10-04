@@ -1,0 +1,22 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "Authorisatin micro-service build in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run start:development",
+    "start": "NODE_ENV=production node index.js",
+    "start:development": "NODE_END=development node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bas van Driel",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
