@@ -9,9 +9,11 @@ require('dotenv').config();
 // The application instance
 const engine = express()
 
+engine.set('view-engine', 'ejs')
+
 // respond with "hello world" when a GET request is made to the homepage
 engine.get('/', function (req, res) {
-    res.send('hello world')
+    res.render('index.ejs')
 })
 
 // Turn on the lights

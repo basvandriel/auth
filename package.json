@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "npm run start:development",
-    "start": "NODE_ENV=production node index.js",
-    "start:development": "NODE_END=development node index.js",
+    "start": "NODE_ENV=production nodemon index.js",
+    "start:development": "NODE_END=development nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bas van Driel",
